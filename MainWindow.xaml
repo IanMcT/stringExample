@@ -1,0 +1,18 @@
+﻿<Window x:Class="stringExample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:stringExample"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525" FontSize="24">
+    <StackPanel>
+        <Label FontWeight="Bold">What does your name mean?</Label>
+        <Label>Enter your first name:</Label>
+        <TextBox x:Name="txtInput" />
+        <Button x:Name="btnGetName" Content="Find what it means..." Click="btnGetName_Click"/>
+        <TextBlock x:Name="txtOutput" />
+
+
+    </StackPanel>
+</Window>
